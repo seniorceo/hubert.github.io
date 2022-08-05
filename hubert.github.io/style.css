@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-size: cover;
+    height: 109vh;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+  25%{
+    width:100%;
+    background: url(6.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  50%{
+    width:100%;
+    background: url(5.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  75%{
+    width:100%;
+    background: url(4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+  100%{
+    width:100%;
+    background: url(7.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+ }
+
+ .icon{
+    width: 200px;
+    float: left;
+    height:70px;
+ }
+ .logo{
+    color: black;
+    font-size: 30px;
+    font-family: 'times new roman';
+    background: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    float: left;
+    padding-top: 2px;
+    cursor: pointer;
+    margin: 10px;
+
+ }
+ .logo:hover{
+  background-color: orange;
+}
+ .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+ }
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+ }
+ ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+ }
+ ul li a:hover{
+  color: rgb(199, 146, 48);
+ }
+ .search{
+    width: 330px;
+    float: left;
+    margin-left: 270;
+   }
+   .srch{
+      font-family:'times new roman';
+      width: 200px;
+      height: 40px;
+      background: transparent;
+      border: 1px solid black;
+      margin-top: 13px;
+      color: white;
+      border-right: none;
+      font-size: 16px;
+      float: left;
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+   }
+  
+   .btn{
+      width: 100px;
+      height: 40px;
+      background: white;
+      border: 2px solid white;
+      margin-top: 13px;
+      color:black;
+      font-size:15px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+    
+   .btn:focus{
+      outline:none;
+   }
+  
+   .srch:focus{
+      outline:none;
+   }
+   .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative"
+  }
+  .content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
+  .content h1{
+    font-family:'times new roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+  }
+  .content .cn{
+    width: 160px;
+    height: 40px;
+    background: white;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  .content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+  }
+  .cn:hover{
+    background-color: orange;
+  }
+  .content span{
+    color: orange;
+    font-size: 60px;
+  }
+  .form{
+    width: 300px;
+    height: 480px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50% );
+    position: absolute;
+    top: 80px;
+    left: 890px;
+    border-radius: 10px;
+    padding: 25px;
+    
+  }
+  .form h2{
+    width: 280px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+  }
+  .form input{
+    width: 300px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 29px;
+    font-family: sans-serif;
+  }
+  .form input:focus{
+    outline: none;
+  }
+  ::placeholder{
+    color:#fff;
+    font-family: arial;
+  }
+  .btnn{
+    width: 300px;
+    height:40px ;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+  }
+  .btnn:hover{
+    background: orange;
+    color: orange;
+  }
+  .btnn a{
+    text-decoration: none;
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }

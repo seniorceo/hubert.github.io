@@ -1,0 +1,119 @@
+*{ 
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(88.jpg);
+
+}
+
+.navbar{
+   width: 1200px;
+   height: 75px;
+   margin: auto;
+}
+
+.icon{
+   width: 200px;
+   float: left;
+   height:70px;
+}
+.logo{
+   color: black;
+   font-size: 30px;
+   font-family: 'times new roman';
+   background: white;
+   border-radius: 10px;
+   padding-left: 5px;
+   float: left;
+   padding-top: 2px;
+   cursor: pointer;
+   margin: 10px;
+
+}
+.logo:hover{
+ background-color: orange;
+}
+.menu{
+   width: 400px;
+   float: left;
+   height: 70px;
+}
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+}
+ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+ color: rgb(199, 146, 48);
+}
+
+
+.slider {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+}
+.images {
+   display: flex;
+   width: 60%;
+}
+
+.images img {
+   height: 400px;
+   width: 400px;
+   transition: all 0.15s ease;
+}
+.images input {
+   display: none;
+
+}
+
+.dots {
+   display: flex;
+   justify-content: center;
+   margin: 5px;
+}
+
+.dots label {
+   height: 20px;
+   width: 20px;
+   border-radius: 50px;
+   border: solid #fff8 3px;
+   cursor: pointer;
+   transition: all 0.15s ease;
+   margin: 5px;
+}
+.dots label:hover {background: #fff8;}
+#img11:checked~ .m11 {
+   margin-left: 0;
+}
+#img22:checked~ .m22 {
+   margin-left: -100%;
+}
+#img33:checked~ .m33 {
+   margin-left: -200%;
+}
+#img44:checked~ .m44 {
+   margin-left: -300%;
+}
